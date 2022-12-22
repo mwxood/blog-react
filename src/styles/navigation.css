@@ -1,0 +1,25 @@
+.top-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.top-nav ul {
+  max-width: 600px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-nav li {
+  margin-right: 30px;
+}
+
+.top-nav li:last-child {
+  margin-right: 0;
+}
+
+.top-nav a {
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
